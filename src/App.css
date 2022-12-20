@@ -1,0 +1,25 @@
+button {
+    border-radius: 5px !important;
+    background-color: #ffffff !important;
+    color: black !important;
+}
+button:disabled,
+button[disabled]{
+  color: #c2c2c2 !important;
+  border: 1px solid #c2c2c2;
+}
+.btn-active{
+    background-color: black !important;
+    color: #ffffff !important;
+    border: 1px solid black !important;
+}
+.btn-search {
+    background-color: black !important;
+    color: #ffffff !important;
+    border: 1px solid black !important;
+}
+.btn-next, .btn-prev {
+    background-color: black !important;
+    color: #ffffff !important;
+    border: 1px solid black !important;
+}

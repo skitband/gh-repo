@@ -12,7 +12,7 @@ function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const octokit = new Octokit({
-    auth: "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",
+    auth: "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",
   });
 
   useEffect(() => {
@@ -141,6 +141,9 @@ function App() {
             NEXT
           </button>
         </div>
+      </div>
+      <div>
+      <h1 className="text-1xl font-bold text-gray-800 mt-4">Created by: sergio Lio (applicant)</h1>
       </div>
     </div>
   );

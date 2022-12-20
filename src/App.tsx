@@ -12,7 +12,7 @@ function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const octokit = new Octokit({
-    auth: "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",
+    auth: "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",
   });
 
   useEffect(() => {

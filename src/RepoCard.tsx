@@ -18,7 +18,8 @@ const RepoCard = ({
   forks,
 }: RepoCardProps) => {
   return (
-    <div className="flex justify-between gap-x-8 items-center p-2">
+    <>
+    <div className="flex justify-between gap-x-8 items-center p-2 mt-2">
       <div className="flex flex-col w-4/5">
         <h1 className="text-2xl font-semibold text-black">{name}</h1>
         <span className="flex flex-row gap-x-2 text-sm">
@@ -51,6 +52,8 @@ const RepoCard = ({
         </span>
       </div>
     </div>
+    <hr className="my-2 h-px bg-gray-200 border-1 dark:bg-gray-700"></hr>
+    </>
   );
 };
 
